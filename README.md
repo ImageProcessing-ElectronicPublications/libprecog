@@ -1,8 +1,12 @@
-PRLib - Pre-Recognition Library.
+# PRLib (`libprecog`)
 
-The main aim of the library - prepare image for recogntion. Image processing can really help to improve recognition quality.
+Pre-Recognition Library.
+
+The main aim of the library - prepare image for recogntion.
+Image processing can really help to improve recognition quality.
 
 *Features:*
+
 * Auto crop image
 * Background normalization
 * Binarization (Global Otsu, Local Otsu, Sauvola, Feng, Niblack, Wolf-Jolion, NICK, FBCITB, Adaptive)
@@ -20,19 +24,23 @@ The main aim of the library - prepare image for recogntion. Image processing can
 * Thinning (Zhang-Suen, Guo-Hall)
 * White balance (Simple, Grayworld)
 
-*Dependencies:* OpenCV, Leptonica.
+*Dependencies:*
+
+* OpenCV
+* Leptonica.
 
 *How to build:*
+
 1) Go to the directory with source code
 2) Make directory for build:
-```
+```shell
     mkdir build
 ```
 3) Run cmake:
-```
+```shell
     cmake ..
 ```    
 4) Run make:
-```
+```shell
     make
 ```    

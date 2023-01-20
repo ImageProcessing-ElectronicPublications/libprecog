@@ -1,0 +1,6 @@
+[submodule "manuals"]
+	path = manuals
+	url = https://github.com/ImageProcessing-ElectronicPublications/libprecog-manuals
+[submodule "data"]
+	path = data
+	url = https://github.com/ImageProcessing-ElectronicPublications/libprecog-data

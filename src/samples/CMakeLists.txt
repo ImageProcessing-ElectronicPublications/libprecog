@@ -1,0 +1,106 @@
+# Samples
+
+# Binarization samples
+add_executable(binarizeCOCOCLUST_sample binarizations/binarizeCOCOCLUST_sample.cpp)
+target_link_libraries(binarizeCOCOCLUST_sample precog)
+
+add_executable(binarizeFBCITB_sample binarizations/binarizeFBCITB_sample.cpp)
+target_link_libraries(binarizeFBCITB_sample precog)
+
+add_executable(binarizeFeng_sample binarizations/binarizeFeng_sample.cpp)
+target_link_libraries(binarizeFeng_sample precog)
+
+add_executable(binarizeLocalOtsu_sample binarizations/binarizeLocalOtsu_sample.cpp)
+target_link_libraries(binarizeLocalOtsu_sample precog)
+
+add_executable(binarizeNativeAdaptive_sample binarizations/binarizeNativeAdaptive_sample.cpp)
+target_link_libraries(binarizeNativeAdaptive_sample precog)
+
+add_executable(binarizeNiblack_sample binarizations/binarizeNiblack_sample.cpp)
+target_link_libraries(binarizeNiblack_sample precog)
+
+add_executable(binarizeNICK_sample binarizations/binarizeNICK_sample.cpp)
+target_link_libraries(binarizeNICK_sample precog)
+
+add_executable(binarizeSauvola_sample binarizations/binarizeSauvola_sample.cpp)
+target_link_libraries(binarizeSauvola_sample precog)
+
+add_executable(binarizeWolfJolion_sample binarizations/binarizeWolfJolion_sample.cpp)
+target_link_libraries(binarizeWolfJolion_sample precog)
+
+add_executable(binarizeMokji_sample binarizations/binarizeMokji_sample.cpp)
+target_link_libraries(binarizeMokji_sample precog)
+
+add_executable(binarizeByLocalVariances_sample binarizations/binarizeByLocalVariances_sample.cpp)
+target_link_libraries(binarizeByLocalVariances_sample precog)
+
+# Thinning samples
+add_executable(thinGuoHall_sample thinning/thinGuoHall_sample.cpp)
+target_link_libraries(thinGuoHall_sample precog)
+
+add_executable(thinZhangSuen_sample thinning/thinZhangSuen_sample.cpp)
+target_link_libraries(thinZhangSuen_sample precog)
+
+# Deblur samples
+add_executable(basicDeblur_sample deblur/basicDeblur_sample.cpp)
+target_link_libraries(basicDeblur_sample precog)
+
+add_executable(wienerFilter_sample deblur/wienerFilter_sample.cpp)
+target_link_libraries(wienerFilter_sample precog)
+
+# Normalization samples
+add_executable(backgroundNormalization_sample backgroundNormalization_sample.cpp)
+target_link_libraries(backgroundNormalization_sample precog)
+
+# Denoise samples
+add_executable(denoiseSaltPepper_sample denoise/denoiseSaltPepper_sample.cpp)
+target_link_libraries(denoiseSaltPepper_sample precog)
+
+add_executable(kuwaharaFilter_sample denoise/kuwaharaFilter_sample.cpp)
+target_link_libraries(kuwaharaFilter_sample precog)
+
+# Border detection samples
+
+# Correct non-uniform illumination samples
+add_executable(cleanBackgroundToWhite_sample cleanBackgroundToWhite_sample.cpp)
+target_link_libraries(cleanBackgroundToWhite_sample precog)
+
+add_executable(correctNUIL_sample correctNUIL_sample.cpp)
+target_link_libraries(correctNUIL_sample precog)
+
+# Remove hole punches samples
+add_executable(removeHolePunch_sample removeHolePunch_sample.cpp)
+target_link_libraries(removeHolePunch_sample precog)
+
+# Remove lines samples
+add_executable(removeLines_sample removeLines_sample.cpp)
+target_link_libraries(removeLines_sample precog)
+
+# Remove dots sample
+add_executable(removeDots_sample removeDots_sample.cpp)
+target_link_libraries(removeDots_sample precog)
+
+# Warp sample
+add_executable(warp_sample warp_sample.cpp)
+target_link_libraries(warp_sample precog)
+
+# Auto crop sample
+add_executable(autoCrop_sample border_detection/autoCrop_sample.cpp)
+target_link_libraries(autoCrop_sample precog)
+
+# Deskew sample
+add_executable(deskew_sample deskew_sample.cpp)
+target_link_libraries(deskew_sample precog)
+
+# Balance samples
+add_executable(balanceColor_sample balance/balanceColor_sample.cpp)
+target_link_libraries(balanceColor_sample precog)
+
+add_executable(balanceGrayWorldWhite_sample balance/balanceGrayWorldWhite_sample.cpp)
+target_link_libraries(balanceGrayWorldWhite_sample precog)
+
+add_executable(balanceSimpleWhite_sample balance/balanceSimpleWhite_sample.cpp)
+target_link_libraries(balanceSimpleWhite_sample precog)
+
+add_executable(gammaCorrection_sample balance/gammaCorrection_sample.cpp)
+target_link_libraries(gammaCorrection_sample precog)
